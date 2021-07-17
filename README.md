@@ -1,2 +1,2 @@
 # timed-loop
-JavaScript class which allows makign of delayed loops. 
+JavaScript class which allows making of delayed loops. 
