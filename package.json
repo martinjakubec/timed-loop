@@ -1,0 +1,27 @@
+{
+  "name": "timed-loop",
+  "version": "1.0.0",
+  "description": "TimedLoop class which allows making of loops which wait after each iteration.",
+  "main": "dist/TimedLoop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinjakubec/timed-loop.git"
+  },
+  "keywords": [
+    "timed",
+    "loop",
+    "delay"
+  ],
+  "author": "Martin Jakubec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinjakubec/timed-loop/issues"
+  },
+  "homepage": "https://github.com/martinjakubec/timed-loop#readme",
+  "devDependencies": {
+    "@types/node": "^16.3.3"
+  }
+}

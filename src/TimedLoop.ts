@@ -29,9 +29,6 @@ class TimedLoop {
         this.callback(i);
         this.currentIteration++;
         await this.timer(this.delay);
-      } else {
-        this.stop();
-        break;
       }
     }
   }
@@ -67,10 +64,16 @@ class TimedLoop {
   /**
    * Resumes the loop based on the internal counter.
    */
-  public continue() {
-    this.isRunning = true;
-    this.theLoop();
+  public continue(i: (null|number) = null) {
+    if (i) {
+      this.currentIteration = i+1
+      this.isRunning = true;
+      this.theLoop();
+    } else {
+      this.isRunning = true;
+      this.theLoop();
+    }
   }
 }
 
-export default TimedLoop;
+module.exports = TimedLoop;

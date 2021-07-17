@@ -3,7 +3,9 @@
     "module": "esnext",
     "target": "ES6",
     "sourceMap": true,
-    "outDir": "js",
+    "rootDir": "src",
+    "outDir": "dist",
+    "watch": true
   },
   "exclude": [
     "node_modules"
